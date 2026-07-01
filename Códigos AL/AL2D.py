@@ -128,3 +128,4 @@ for j in range (ncasos):
 
     df = pd.DataFrame(list(zip(ai,aii,ci,cii,tim,res,pont,dentro,totalpontos)), columns=columns)
     df.to_excel(r"C:\Users\lucas_mzj9txp\Desktop\AL2D.xlsx")
+    
